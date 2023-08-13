@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="info">
+      This is a test program designed to assess the rendering performance of Canvas.
+      Each test is executed 60 times using requestAnimationFrame, and the time taken for each execution is recorded.
+      In a 60FPS environment, if a test completes without delay, it should take around 1000ms.
+      If notable delays are detected, the results will be displayed in red.
+    </div>
+    <div id="status-text">waiting</div>
+    <button id="start-button">Run All Test</button>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
